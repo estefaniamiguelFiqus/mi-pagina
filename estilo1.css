@@ -1,4 +1,40 @@
-p {
-  text-align:center;
-  color:red;
+body {
+  background-color:rgb(235, 236, 178);
+  border-style:groove;
+  border-color: beige;
+  margin-left:05%;
+  margin-right:05%;
+  padding-right:10%;
+  padding-left:10%;
+}
+  .nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+  .nav li  {
+    display:inline;
+  }
+
+  li a {
+
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+  li a:hover{
+    background-color:white;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+img {
+  display: block;
+  margin:auto;
 }
